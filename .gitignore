@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Credenciales y claves
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+*.p12
+secrets/
+credentials/
+
+# Modelos de inteligencia artificial
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+*.tflite
+
+# Datasets y resultados
+datasets/*
+!datasets/.gitkeep
+modelos/*
+!modelos/.gitkeep
+resultados/*
+!resultados/.gitkeep
+
+# Binarios y archivos compilados
+*.o
+*.so
+*.a
+*.out
+*.bin
+*.log
+
+# Ejemplos CUDA de NVIDIA
+tests/cuda/samples/
+
+# Imágenes y respaldos
+*.img
+*.img.xz
+*.iso
+*.tar
+*.tar.gz
+
+# Archivos temporales
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
