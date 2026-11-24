@@ -1,0 +1,16 @@
+# Taller de Robotica Inteligente con NVIDIA Jetson Nano
+# Docker v0.2 - YOLO26n con aceleracion GPU
+#
+# Plataforma validada:
+# Jetson Nano 4 GB
+# JetPack 4.6 / L4T R32.6.1
+# CUDA 10.2
+
+FROM ultralytics/ultralytics@sha256:4965d450a2dc50a960599246dc8eb34d21f5ae85d656e102bdf711961ff46a51
+
+WORKDIR /workspace
+
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+
+CMD ["/bin/bash"]
